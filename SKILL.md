@@ -1,6 +1,6 @@
 ---
 name: liminalliving-job-search-waypoint
-description: >
+description:
 A grief-literate resume and cover letter system for job seekers at any stage — recent layoff,
 long search, career change, or non-linear history. Use this skill whenever someone needs help
 with a resume, cover letter, job application, or job search strategy. Trigger for phrases like
