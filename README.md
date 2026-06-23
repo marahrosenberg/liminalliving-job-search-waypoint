@@ -17,11 +17,16 @@ so you can keep moving. That's what this tool is.
 Most resume tools treat the human as a variable to manage around. This one treats human
 capacity as the system itself.
 
+You don't need a job description to start. You don't need a resume ready or a role in
+mind. You can arrive exactly where you are — stuck, numb, not sure what you're doing
+next — and that's enough to begin. Claude will ask for what it needs, when it needs it.
+
 This works for:
 - Recent layoffs navigating shock and momentum at the same time
 - Long searches where confidence has eroded
 - Career changers with non-linear histories
 - Anyone who's been told their background "doesn't fit" and knows that's not the whole story
+- Anyone who just needs somewhere to land while they figure out what's next
 
 ---
 
@@ -58,8 +63,7 @@ You don't need to install anything. You'll paste the skill at the start of each 
 **What you'll need:**
 - The contents of `SKILL.md` (the main skill file)
 - The contents of `references/protocol.md` (the full workflow)
-- Your resume (as a copied text block or uploaded file)
-- The job description you're applying to
+- A job description, or just a place to start — Claude will ask for what it needs
 
 **Step 1: Get the files**
 
@@ -74,8 +78,9 @@ You don't need to install anything. You'll paste the skill at the start of each 
 1. Go to [claude.ai](https://claude.ai) and start a new conversation
 2. Paste the full contents of `SKILL.md` into the chat
 3. Then paste the full contents of `references/protocol.md`
-4. Upload your resume as a file, or paste it as text
-5. Then paste the job description you're working on
+4. Send a message to get started (see examples below)
+
+Claude will ask for your resume and any other materials when it's ready to use them.
 
 **Step 3: Invoke the skill**
 
@@ -83,12 +88,12 @@ After pasting, send a message like one of these to get started:
 
 > "I want to apply to this role. Here's the job description. Please run the Waypoint protocol."
 
-> "Help me tailor my resume for this position using the Waypoint framework."
-
 > "I don't know if I'm qualified for this. Can you help me figure out if I should apply?"
 
-**Note:** You'll repeat steps 2–5 at the start of each new conversation. Claude doesn't retain
-files or context between sessions on the free plan.
+> "I'm not sure where to start. I just lost my job and I don't know what to do next."
+
+**Note:** You'll repeat steps 2–3 at the start of each new conversation. Claude doesn't
+retain files or context between sessions on the free plan.
 
 ---
 
@@ -133,11 +138,11 @@ something like:
 
 > "I want to apply to this role. Please use the Waypoint skill. Here's the job description: [paste JD]"
 
-> "Use Waypoint to help me tailor my resume for this position."
+> "Use Waypoint. I'm not sure where to start — I just need to talk through where I am."
 
-> "I have a job description I want to apply to. Run the Waypoint protocol."
+> "Run the Waypoint protocol. Here's what I'm working with: [paste whatever you have]"
 
-Claude will confirm it's using the skill and ask for any information it needs.
+Claude will confirm it's using the skill and ask for what it needs from there.
 
 ---
 
@@ -152,7 +157,8 @@ These phrases work for both free and paid users once the skill is active:
 | Check ATS compliance | "Run an ATS check on my resume" |
 | Write a cover letter | "Write a cover letter for this role" |
 | Figure out if you should apply | "I don't know if I'm qualified. Can you help me decide?" |
-| Don't know where to start | "I don't know where to start with my job search" |
+| Don't know where to start | "I don't know where to start" |
+| Just need somewhere to land | "I'm not ready to work on anything yet. I just need to talk." |
 
 You don't need a perfect opening. Claude will ask for what it needs.
 
