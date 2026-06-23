@@ -38,11 +38,123 @@ It also knows when to pause the protocol and ask: *"What's making this feel hard
 
 ---
 
-## How to install
+## Before you install
 
-1. In Claude.ai, open or create a Project
-2. Upload `SKILL.md` and the `references/` folder to the Project
-3. Start a conversation — paste a job description or ask for resume help
+**Do you have a paid Claude subscription (Pro or Max)?**
+
+This determines how you set up Waypoint. Both paths work — they just feel different.
+
+- **Free account** → You'll paste the skill into each conversation. Takes about 60 seconds. Jump to [Free Setup](#free-account-setup).
+- **Paid account (Pro or Max)** → You'll install it once and it persists across all your conversations. Jump to [Pro/Max Setup](#promax-account-setup).
+
+Not sure which you have? If you signed up without a credit card, you're on the free plan.
+
+---
+
+## Free Account Setup
+
+You don't need to install anything. You'll paste the skill at the start of each conversation.
+
+**What you'll need:**
+- The contents of `SKILL.md` (the main skill file)
+- The contents of `references/protocol.md` (the full workflow)
+- Your resume (as a copied text block or uploaded file)
+- The job description you're applying to
+
+**Step 1: Get the files**
+
+1. On this GitHub page, click the green **Code** button (top right of the file list)
+2. Select **Download ZIP**
+3. Unzip the downloaded file on your computer
+4. Open `SKILL.md` in any text editor (Notepad, TextEdit, etc.) and copy all the text
+5. Do the same for `references/protocol.md`
+
+**Step 2: Start a conversation**
+
+1. Go to [claude.ai](https://claude.ai) and start a new conversation
+2. Paste the full contents of `SKILL.md` into the chat
+3. Then paste the full contents of `references/protocol.md`
+4. Upload your resume as a file, or paste it as text
+5. Then paste the job description you're working on
+
+**Step 3: Invoke the skill**
+
+After pasting, send a message like one of these to get started:
+
+> "I want to apply to this role. Here's the job description. Please run the Waypoint protocol."
+
+> "Help me tailor my resume for this position using the Waypoint framework."
+
+> "I don't know if I'm qualified for this. Can you help me figure out if I should apply?"
+
+**Note:** You'll repeat steps 2–5 at the start of each new conversation. Claude doesn't retain
+files or context between sessions on the free plan.
+
+---
+
+## Pro/Max Account Setup
+
+Install Waypoint once. It will be available in every future conversation automatically.
+
+**Step 1: Download the skill**
+
+1. On this GitHub page, click the green **Code** button (top right of the file list)
+2. Select **Download ZIP**
+3. Save the ZIP file somewhere you can find it (Downloads folder is fine)
+   — do not unzip it
+
+**Step 2: Install the skill in Claude**
+
+1. Go to [claude.ai](https://claude.ai)
+2. Click the **menu icon** (top left) to open the sidebar
+3. Click **Customize**
+4. Click **Create new skills**
+5. Click the **+** (plus) button
+6. Select **Create skill**
+7. Click **Upload a skill**
+8. Select the `.zip` file you downloaded in Step 1
+9. Click **Create** — you should see Waypoint appear in your skills list
+
+**Step 3: Store your resume (optional but recommended)**
+
+Claude Projects let you store your resume so it's available in every session without
+re-uploading.
+
+1. In the Claude sidebar, click **New Project** (or open an existing one)
+2. Click **Add content** or the paperclip icon
+3. Upload your resume as a file
+4. Name the project something like "Job Search" so it's easy to find
+
+**Step 4: Start a conversation and invoke the skill**
+
+Waypoint doesn't activate automatically — you need to tell Claude you want to use it.
+Start a new conversation (inside your Job Search project if you set one up) and say
+something like:
+
+> "I want to apply to this role. Please use the Waypoint skill. Here's the job description: [paste JD]"
+
+> "Use Waypoint to help me tailor my resume for this position."
+
+> "I have a job description I want to apply to. Run the Waypoint protocol."
+
+Claude will confirm it's using the skill and ask for any information it needs.
+
+---
+
+## How to start a conversation
+
+These phrases work for both free and paid users once the skill is active:
+
+| What you want | What to say |
+|---|---|
+| Apply to a specific role | "I want to apply to this role. [paste job description]" |
+| Fix a single bullet | "Help me strengthen this bullet: [paste bullet]" |
+| Check ATS compliance | "Run an ATS check on my resume" |
+| Write a cover letter | "Write a cover letter for this role" |
+| Figure out if you should apply | "I don't know if I'm qualified. Can you help me decide?" |
+| Don't know where to start | "I don't know where to start with my job search" |
+
+You don't need a perfect opening. Claude will ask for what it needs.
 
 ---
 
@@ -102,6 +214,8 @@ system rather than a variable to manage around. Work at the intersection of orga
 dynamics, grief literacy, and systems thinking.
 
 [liminalliving.net](https://liminalliving.net)
+
+---
 
 ## Support This Work
 
