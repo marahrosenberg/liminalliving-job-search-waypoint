@@ -182,8 +182,8 @@ named correctly. It is a liability only when left unnamed or apologized for.
 
 ### Step 7: Technical Standardization
 
-**File:** .docx only. Standard headers. No tables, text boxes, or columns
-except in the Competencies section.
+**File:** Standard headers. No tables, text boxes, or columns except in the
+Competencies section. Final format is determined at delivery — see Step 9.
 
 **The Fold Rule:** Top one-third of page one must contain:
 - Name
@@ -252,18 +252,22 @@ rewrite the opener and the close. Those are the two places AI voice concentrates
 
 ### Step 9: Delivery
 
+**Format**
+
+Before generating any document, ask:
+
+> "Before I put this together — how would you like to receive the documents?
+>
+> - **Word (.docx)** — recommended for most people; opens in Microsoft Word or Google Docs
+> - **Plain text (.txt)** — works on any device, easy to copy and paste
+> - **Markdown (.md)** — best if you use a notes app or writing tool that supports it"
+
+If the person is unsure, recommend Word.
+
 **Standard delivery package:**
 
-1. **Resume** — .docx, ATS-optimized, QA-passed
-2. **Cover Letter** — .docx, T-shape, ≤ 450 words, anti-AI check passed
-3. **ATS Compliance Report** — includes:
-   - Character count audit (all bullets)
-   - Employment continuity check
-   - Tier 1 keyword tracking table
-4. **Quick Reference Card** — 3 high-stakes talking points for the interview,
-   drawn from the strongest bullets. Format: claim + evidence + so what.
-
----
+1. **Resume** — QA-passed, ATS-optimized, in chosen format
+2. **Cover Letter** — T-shape, ≤ 450 words, anti-AI check passed, in chosen format---
 
 ## QUICK REFERENCE
 
